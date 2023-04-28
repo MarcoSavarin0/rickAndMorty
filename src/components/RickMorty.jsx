@@ -93,7 +93,7 @@ function RickMorty(){
 
     return(
         <>
-       
+        <div style={{ minHeight: 'calc(100vh - 120px)' }}> 
         <h2 style={{textAlign: 'center'}}>Characters</h2>
         <hr />
         <div className="d-flex justify-content-start" style={{marginTop: '20px'}}>
@@ -151,7 +151,7 @@ function RickMorty(){
           breakLabel="..."
         />
 </div>
-        
+</div>
         </>
     )
 }

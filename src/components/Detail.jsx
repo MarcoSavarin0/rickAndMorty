@@ -30,6 +30,7 @@ function Detail(){
     }, []);
 
     return(
+      <div style={{ minHeight: 'calc(100vh - 120px)' }}>
         <Container className="my-5">
       <Row>
         <Col xs={12} md={4}>
@@ -72,6 +73,7 @@ function Detail(){
         </Col>
       </Row>
     </Container>
+    </div>
     )
 }
 

@@ -12,7 +12,7 @@ function Footer(){
       <Container className="py-4">
         <Row>
           <Col>
-            <p className="text-muted mb-0">© 2023 Company, Inc. All rights reserved.</p>
+            <p className="text-muted mb-0">CREADO POR MARCO SAVARINO-2023</p>
           </Col>
           <Col className="d-flex justify-content-end">
             <button
