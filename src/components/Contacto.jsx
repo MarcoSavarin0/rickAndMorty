@@ -8,8 +8,8 @@ function Contacto(){
           <div class="row">
             <div class="col-md-6">
                 <form action="https://formspree.io/f/xgebrvpy"
-                method="POST" data-netlify="true">
-                <div class="mb-3">
+                method="POST" name="contact" data-netlify="true">
+                <div class="mb-3" >
                   <label for="name" class="form-label">Nombre completo</label>
                   <input type="text" class="form-control" id="name" name="name" required />
                 </div>
