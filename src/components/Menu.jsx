@@ -15,6 +15,8 @@ return(
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/personajes">Personajes</Nav.Link>
             <Nav.Link as={Link} to="/buscar">Buscar tu personaje</Nav.Link>
+            <Nav.Link as={Link} to="/contact">Contactame</Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

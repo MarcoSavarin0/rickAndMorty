@@ -69,7 +69,7 @@ return(
    <div style={{ minHeight: 'calc(100vh - 120px)' }}>
         <form  method="get" onSubmit={getInputData} className="d-flex justify-content-center align-items-center">
             <div className="d-flex justify-content-center formulario">
-                <input className="inputSearch" type="text" ref={inputCap} placeholder="Busca tu personaje favorito!" />
+                <input className="inputSearch form-control" type="text" ref={inputCap} placeholder="Busca tu personaje favorito!" />
                 <button type="submit"   className="align-self-center botonSearch" ><i class="fa-solid fa-magnifying-glass"></i></button>
            </div> 
         </form>

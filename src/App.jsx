@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Search from './components/Search';
 import Detail from './components/Detail';
 import Footer from './components/Footer/Footer';
+import Contacto from './components/Contacto';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path='/personajes' element={ <RickMorty />} />
         <Route path='/buscar' element={ <Search />} />
         <Route path='/detail/:id' element={ <Detail />} />
+        <Route path='/contact' element={ <Contacto />} />
+        
         </Routes>
         <Footer/>
       </Router>
